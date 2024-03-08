@@ -9,8 +9,8 @@ update = put(ALTERA SOMENTE 1 ITEM DA TABELA) /patch (ALTERA VARIOS ITENS DE UMA
 delete = delete
 
 
-req = REQUISIÇÃO
-res = RESPOSTA
+req = REQUISIÇÃO / quando eu interejao com o banco
+res = RESPOSTA / quando o banco interaje comigo
 */
 
 const express = require('express'); // importando express
