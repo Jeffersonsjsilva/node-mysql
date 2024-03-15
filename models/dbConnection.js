@@ -12,10 +12,10 @@ const conecta = mysql.createConnection({
 conecta.connect((err)=>{
     if(err)
     {
-        console.log("deu ruim tranca o curso",err);
+        console.log("Erro ao conectar",err);
         return;
     }
-    console.log("deu bom, continua o curso paizao");
+    console.log("Conectado com sucesso");
 });
 
 module.exports = conecta; //exportando
